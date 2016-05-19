@@ -61,13 +61,13 @@ require.config({
         },
         {
             'name': 'echarts',
-            'location': '../dep/echarts/3.1.2/src',
+            'location': '../dep/echarts/3.1.2/dist',
             'main': 'echarts'
         },
         {
             'name': 'zrender',
             'location': '../dep/zrender/3.0.8/src',
-            "main": "zrender"
+            'main': 'lib/zrender'
         }
     ]
 });
