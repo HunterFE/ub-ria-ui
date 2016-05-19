@@ -61,13 +61,13 @@ require.config({
         },
         {
             'name': 'echarts',
-            'location': '../dep/echarts/2.2.7/src',
+            'location': '../dep/echarts/3.1.2/dist',
             'main': 'echarts'
         },
         {
             'name': 'zrender',
-            'location': '../dep/zrender/2.1.1/src',
-            'main': 'zrender'
+            'location': '../dep/zrender/3.0.8/src',
+            'main': 'lib/zrender'
         }
     ],
     'paths': { 'jquery-simulate': 'test/third-party/jquery.simulate' },
