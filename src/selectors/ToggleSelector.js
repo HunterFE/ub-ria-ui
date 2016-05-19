@@ -51,6 +51,7 @@ define(
                     var me = this;
 
                     var controlHelper = this.helper;
+                    this.triggerElement = this.main;
                     me.$super(arguments);
                     var $mainElement = $(me.main);
 
@@ -67,8 +68,6 @@ define(
                     $text.addClass(controlHelper.getPrefixClass('select-text'));
                     $mainElement.append($caret);
                     $contentLayer.insertAfter($mainElement);
-
-                    this.layer.autoCloseExcludeElements = [$mainElement[0]];
                 },
 
                 /**
